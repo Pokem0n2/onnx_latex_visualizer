@@ -642,7 +642,7 @@ def main():
         engine = LaTeXInferenceEngine(models, tokenizer)
 
         # 推理
-        result, steps = engine.infer(str(test_image))
+        result, steps, *_ = engine.infer(str(test_image))
 
         # 可视化
         visualizer = Visualizer()
