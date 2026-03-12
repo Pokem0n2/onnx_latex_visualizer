@@ -1,0 +1,12 @@
+# 排除ONNX模型文件
+decoder.onnx
+encoder.onnx
+
+# 排除Python编译文件
+__pycache__/
+*.pyc
+
+# 排除环境文件
+.env
+venv/
+env/
